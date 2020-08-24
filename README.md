@@ -63,11 +63,9 @@ FRAMEWORK ARCHITECTURE
             -java
                 -pages  : create classes for each page of the application, and store related webElements.
                 -runners: store all runner classes inside of this package. This class is triggered point of the framework. You can use tags keyword inside of our CucumberOptions to create different group of tests in our testing suite such as Smoke, Regression, NegativeLogin, PositiveLogin etc. 
-                -steps_definitions : implementing the steps which are written in the feature 
-files.                             -hooks: It is mainly used for proper reporting in Cucumber. 'Hooks' is the keyword used to describe the action of setting up and tearing down.
-
-                -utilities : create driver & configuration classes, and many other reusable 
-utilities
+                -steps_definitions : implementing the steps which are written in the feature files.                             
+                               -hooks: It is mainly used for proper reporting in Cucumber. 'Hooks' is the keyword used to describe the action of setting up and tearing down.
+                -utilities : create driver & configuration classes, and many other reusable utilities
             -resources
                 -features : where scenarios are written in Gherkin language.
     - target  : all of the results of the framework will be stored in target. 
